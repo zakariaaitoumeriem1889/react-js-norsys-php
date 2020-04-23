@@ -1,0 +1,82 @@
+{
+  "books": [
+    {
+      "isbn": "978-2-212-67521-4",
+      "summary": "Vous aimeriez apprendre à programmer en Java, mais vous débutez dans la programmation ? Pas de panique ! Vous tenez dans vos mains un livre conçu pour les débutants qui souhaitent se former à Java, le langage de programmation incontournable des professionnels ! De quoi permettre d\\'apprendre pas à pas à développer vos premiers programmes.",
+      "title": "Apprenez à programmer en Java",
+      "publisher": "OpenClassrooms",
+      "publicationDate": "Dec 12 2018",
+      "numberOfPages": 788,
+      "language": "FR",
+      "author": {
+        "id": 0,
+        "name": "Cyrille Herby"
+      }
+    },
+    {
+      "isbn": "978-2-212-14398-0",
+      "summary": "Vous pratiquez PHP et vous savez créer des sites ? Vous avez l'impression de réécrire souvent les mêmes choses ? Vous vous posez des questions sur la meilleure façon de traiter une tâche particulière, comme créer des formulaires ou envoyer des e-mails ? Vous aimeriez disposer d'une boîte à outils toute prête pour tout le code laborieux ? Alors vous avez besoin d'un framework PHP et Laravel constitue actuellement ce qui se fait de mieux en la matière !",
+      "title": "Découvrez le framework PHP Laravel",
+      "publisher": "OpenClassrooms",
+      "publicationDate": "Sep 08 2016",
+      "numberOfPages": 326,
+      "language": "FR",
+      "author": {
+        "id": 1,
+        "name": "Maurice Chavelli"
+      }
+    },
+    {
+      "isbn": "978-2-212-67475-0",
+      "summary": "Vous connaissez le HTML et vous avez toujours rêvé de créer un site web dynamique, avec votre propre blog, vos forums et votre espace membres ? Ne cherchez plus ! Découvrez dans ce livre dédié aux débutants comment utiliser les langages les plus célèbres du web dynamique : PHP et MySQL.",
+      "title": "Concevez votre site web avec PHP et MySQL",
+      "publisher": "OpenClassroom",
+      "publicationDate": "Nov 02 2017",
+      "numberOfPages": 392,
+      "language": "FR",
+      "author": {
+        "id": 2,
+        "name": "Mathieu Nebra"
+      }
+    },
+    {
+      "isbn": "978-2-212-67871-0",
+      "summary": "Vous n'y connaissez rien en programmation et vous souhaitez apprendre un langage clair et intuitif ? Python est fait pour vous ! Vous découvrirez dans ce livre, conçu pour les débutants, tout ce dont vous avez besoin pour programmer, des bases à la bibliothèque standard, en passant par la programmation orientée objet et l'acquisition d'outils avancés ou professionnels pour devenir plus efficace.",
+      "title": "Apprenez à programmer en Python",
+      "publisher": "OpenClassrooms",
+      "publicationDate": "Nov 21 2019",
+      "numberOfPages": 504,
+      "language": "FR",
+      "author": {
+        "id": 3,
+        "name": "Vincent Le Goff"
+      }
+    },
+    {
+      "isbn": "978-2-212-14472-7",
+      "summary": "Difficile aujourd'hui de passer à côté de la programmation orientée objet ! La quasi-totalité des outils créés actuellement pour les développeurs PHP utilise cette façon de programmer. Il est donc indispensable de savoir ce que c'est et comment s'en servir. Que vous ayez déjà quelques notions sur ce concept ou que vous soyez complètement novice en la matière, cet ouvrage est fait pour vous !",
+      "title": "Programmez en orienté objet en PHP",
+      "publisher": "OpenClassrooms",
+      "publicationDate": "May 18 2017",
+      "numberOfPages": 474,
+      "language": "FR",
+      "author": {
+        "id": 4,
+        "name": "Victor Thuillier"
+      }
+    },
+    {
+      "isbn": "5ea041f41387ef73b2218586",
+      "summary": "Vous connaissez le HTML et avez toujours rêvé d'améliorer le confort de navigation de vos sites web tout en les rendant plus attrayants pour vos visiteurs ? Ce livre est fait pour vous !\n\nConçu pour les débutants, il vous apprendra pas à pas la programmation en JavaScript, l'un des langages du Web le plus utilisé au monde.",
+      "title": "Découvrez le langage JavaScript",
+      "publisher": "OpenClassroom",
+      "publicationDate": "Jan 12 2017",
+      "numberOfPages": 478,
+      "language": "FR",
+      "author": {
+        "id": 5,
+        "name": "Johann Pardanaud"
+      }
+    }
+  ]
+}
