@@ -9,8 +9,20 @@ class BookService {
         return Axios.get(`/books?title=${title}`);
     }
 
-    findbooksByIsbn(id) {
+    findbooksById(id) {
         return Axios.get(`/books/${id}`);
+    }
+
+    save(book) {
+        return Axios.post('/books', book);
+    }
+
+    edit(book) {
+        return Axios.put(`/books/${book.id}`, book);
+    }
+
+    delete(id) {
+        return Axios.delete(`/books/${id}`);
     }
 }
 

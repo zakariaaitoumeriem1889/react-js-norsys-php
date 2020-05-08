@@ -1,9 +1,22 @@
-import React, {useEffect, useState} from "react";
-import {Button, Card} from "react-bootstrap";
-import {bookService} from "../services/BookService";
+import React from "react";
+import {Card, Button} from "react-bootstrap";
+import {Link} from "react-router-dom";
+import { bookService } from "../services/BookService";
 
 const Book = ({book}) => {
-    const [books, setBooks] = useState([]);
+    const isbn = book.isbn;
+    const id = book.id;
+
+    const deletePhoto = async () => {
+        try {
+            await bookService.delete(id);
+            alert('Deleted');
+            window.location.reload();
+        } catch (error) {
+            console.log(error);
+            alert('Delete');
+        }
+    };
 
     return (
         <Card border="info" bg="dark" text="light" style={{width: '340px', height: 'auto', marginTop: '20px', marginBottom: '20px'}}>
@@ -16,7 +29,13 @@ const Book = ({book}) => {
                 </blockquote>
             </Card.Body>
             <Card.Footer>
-                <button type="button" className="btn btn-outline-info">Detail</button>
+                <Link to={`/books/${id}`}>
+                    <Button variant="info">Detail</Button>
+                </Link>&nbsp;
+                <Link to={`/books/edit/${id}`} book={book[id]}>
+                    <Button variant="primary">Edit</Button>
+                </Link>&nbsp;
+                <Button onClick={deletePhoto} variant="danger">Delete</Button>
             </Card.Footer>
         </Card>
     );

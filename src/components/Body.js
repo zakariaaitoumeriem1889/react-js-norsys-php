@@ -1,12 +1,14 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import {Button, Col, Container, Row} from "react-bootstrap";
 import BookSearch from "./BookSearch";
 import Book from "./Book";
+import {Link} from "react-router-dom";
 
 const Body = ({books, onSearch}) => {
+
     const searchBook = (bookTitle) => {
-        onSearch(bookTitle)
-    }
+        onSearch(bookTitle);
+    };
 
     return (
         <Container>
@@ -16,9 +18,14 @@ const Body = ({books, onSearch}) => {
                 </Col>
             </Row>
             <Row>
+                <Link to="/books/new">
+                    <Button variant="outline-dark">New Book</Button>
+                </Link>
+            </Row>
+            <Row>
                 {
                     books.map((book) =>
-                        <Col key={book.isbn}>
+                        <Col key={book.id}>
                             <Book book={book} />
                         </Col>
                     )
